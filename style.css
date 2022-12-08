@@ -1,0 +1,31 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/novidades.css);
+@import url(styles/rodape.css);
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-cabecalho: #FFFFFF;
+    --cor-texto-principal: #FFFFFF;
+    --cor-de-fundo-novidades: #E5E5E5;
+    --cor-titulo: #EB9B00;
+    --cor-azul-principal: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-azul-principal-simples: #002F52;
+    --cor-preto: #000000 85%;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #858585;
+    --cinza-escuro: #474646;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    height: 100vh;
+}
+
